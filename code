@@ -10,11 +10,11 @@ import java.util.*;
 
 public class Main {
 	public static void main(String[] args){
-			Developer[] developers = new Developer[12];
+		Developer[] developers = new Developer[12];
     		developers[0] = new JuniorDeveloper(1, "Junior", "Petr", 2300);
     		developers[1] = new SeniorDeveloper(2, "Senior", "Dima", 1600);
     		developers[2] = new JuniorDeveloper(1, "Junior", "Vova", 1050);
-   			developers[3] = new SeniorDeveloper(2, "Senior", "Jan", 1780);
+   		developers[3] = new SeniorDeveloper(2, "Senior", "Jan", 1780);
     		developers[4] = new TeamLeadDeveloper(3, "TeamLead", "Roman", 8900);
     		developers[5] = new SeniorDeveloper(2, "Senior", "Mishka", 1000);
     		developers[6] = new SeniorDeveloper(2, "Senior", "Kostia", 3400);
